@@ -12,7 +12,7 @@ FILE=$1
 
 
 elif  [ $FILE == "deadstock-dataset" ]; then
-    URL=https://www.dropbox.com/s/hxtla67i6sz8sc2/dataset.zip?dl=0
+    URL=https://www.dropbox.com/s/hxtla67i6sz8sc2/dataset.zip
     ZIP_FILE=./data/dataset.zip
     mkdir -p ./data
     wget -N $URL -O $ZIP_FILE
